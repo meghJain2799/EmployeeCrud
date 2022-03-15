@@ -1,38 +1,71 @@
-.App {
-  text-align: center;
+/* Navbar styling in navbar component */
+.navbar_style{
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.tag_logo{
+    text-decoration: none;
+    color: black;
+    font-size: 25px;
+    font-weight: 500;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.input_search{
+    font-size: 15px;
+    padding: 10px;
+    border-radius: 25px;
+    border: 1.5px solid #FFC107;
+    text-align: center;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.add_button{
+    font-size:15px;
+    color: white;
+    border-radius: 15px;
+    border: 1px  solid white;
+    padding: 10px;
+    font-weight: 500;
 }
 
-.App-link {
-  color: #61dafb;
+/* Form Styling In add component */
+
+.form_container{
+    display: flex;
+    justify-content: center;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.form_main{
+    border: 2px solid #FFC107;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.form_label{
+    display: block;
+    font-size: 20px;
+    font-weight: 400;
+    margin-top:5px;
+}
+
+.form_input{
+    padding-left: 5px;
+    border: 1.5px solid #FFC107;
+    width: 100%;
+    border-radius: 10px;
+    margin-top:5px;
+
+}
+
+.form_add{
+    border: none;
+    background-color: #FFC107;
+    color: black;
+    border-radius: 10px;
+}
+
+.form_head{
+    border-bottom: 2px solid #FFC107;
+    padding-bottom: 10px;
 }

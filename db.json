@@ -1,0 +1,28 @@
+{
+  "users": [
+    {
+      "firstname": "khushi",
+      "lastname": "sankrani",
+      "email": "rakeshsankrani00@gmail.com",
+      "id": 6
+    },
+    {
+      "firstname": "johnnnn",
+      "lastname": "bryanvv",
+      "email": "john@gmail.com",
+      "id": 9
+    },
+    {
+      "firstname": "rakesh",
+      "lastname": "sankrani",
+      "email": "meghjain27@gmail.com",
+      "id": 10
+    },
+    {
+      "firstname": "Megh",
+      "lastname": "Jain",
+      "email": "meghjain27@gmail.com",
+      "id": 11
+    }
+  ]
+}
